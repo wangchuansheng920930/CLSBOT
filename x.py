@@ -42,7 +42,7 @@ oepoll = OEPoll(cl)
 #oepoll2 = OEPoll(k1)
 #oepoll3 = OEPoll(k2)
 #==============================================================================#
-lock = _name = "C.L βộṱ ℟ǕÑing...\n\n天使が降臨したと伝説\n\n伝説のボボが運行中\n\n✔24時間ぶっ通しで\n\nCreator: C.L Made in Taiwan\nTeam: L.T.D System\nLine ID: chuanshou_0915\n\n✔βộṱ  ℟ǕÑing...."
+lock = _name = "Ｃ.Ｌ βộṱ ℟ǕÑing...\n\n天使が降臨したと伝説\n\n伝説のボボが運行中\n\n✔24時間ぶっ通しで\n\nCreator: C.L Made in Taiwan\nTeam: L.T.D System\nLine ID: chuanshou_0915\n\n✔βộṱ  ℟ǕÑing...."
 readOpen = codecs.open("read.json","r","utf-8")
 settingsOpen = codecs.open("temp.json","r","utf-8")
 banOpen = codecs.open("ban.json","r","utf-8")
@@ -56,8 +56,7 @@ bl = [""]
 
 #==============================================================================#
 def restartBot():
-    print ("[ INFO ] BOT RESETTED")
-    backupData()
+    print ("[ INFO ] BOT RESETTED") 
     python = sys.executable
     os.execl(python, python, *sys.argv)
 def backupData():
@@ -89,7 +88,7 @@ def sendMessageWithMention(to, mid):
         logError(error)
 def helpmessage():
     helpMessage = """╔══════════════
-╠♥ ☾✟ 單體半垢 ✟☽ ♥
+╠♥ ☾✟ Ｃ.Ｌ半垢 ✟☽ ♥
 ║
 ╠══✪〘 Help Message 〙✪═══
 ║
@@ -180,7 +179,7 @@ def helpmessage():
 ╠➥ Botslist 自動邀請表
 ╠➥ Join 自動邀請
 ║
-╚═〘 Created By: 堯寶™ 〙"""
+╚═〘 Created By: 傳說™ 〙"""
     return helpMessage
 wait2 = {
     'readPoint':{},
@@ -195,7 +194,7 @@ def cTime_to_datetime(unixtime):
     return datetime.datetime.fromtimestamp(int(str(unixtime)[:len(str(unixtime))-3]))
 
 admin =[clMID]
-owners = ["u6791d7ff66880a0566b7591be262e3f5"]
+owners = ["u8ae329f17959bd95d530dacca0b8ca25"]
 #if clMID not in owners:
 #    python = sys.executable
 #    os.execl(python, python, *sys.argv)
