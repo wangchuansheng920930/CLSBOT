@@ -1,6 +1,6 @@
 # -*-coding: utf-8 -*-
 
-from Linephu.linepy import *
+from linepy import *
 from datetime import datetime
 from time import sleep
 from humanfriendly import format_timespan, format_size, format_number, format_length
