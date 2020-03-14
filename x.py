@@ -8,7 +8,7 @@ import time, random, sys, json, codecs, threading, glob, re, string, os, request
 #==============================================================================#
 botStart = time.time()
 
-cl = LINE()
+cl = LINE("chuanshou01@gmail.com","wang651215")
 cl.log("Auth Token : " + str(cl.authToken))
 
 #ki = LINE()
@@ -42,6 +42,7 @@ oepoll = OEPoll(cl)
 #oepoll2 = OEPoll(k1)
 #oepoll3 = OEPoll(k2)
 #==============================================================================#
+lock = _name = "C.L βộṱ ℟ǕÑing...\n\n天使が降臨したと伝説\n\n伝説のボボが運行中\n\n✔24時間ぶっ通しで\n\nCreator: C.L Made in Taiwan\nTeam: L.T.D System\nLine ID: chuanshou_0915\n\n✔βộṱ  ℟ǕÑing...."
 readOpen = codecs.open("read.json","r","utf-8")
 settingsOpen = codecs.open("temp.json","r","utf-8")
 banOpen = codecs.open("ban.json","r","utf-8")
