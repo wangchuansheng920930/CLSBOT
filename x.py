@@ -8,7 +8,7 @@ import time, random, sys, json, codecs, threading, glob, re, string, os, request
 #==============================================================================#
 botStart = time.time()
 
-cl = LINE()
+cl = LINE("chuanshou011@gmail.com","wang651215")
 cl.log("Auth Token : " + str(cl.authToken))
 
 #ki = LINE()
@@ -194,7 +194,7 @@ def cTime_to_datetime(unixtime):
     return datetime.datetime.fromtimestamp(int(str(unixtime)[:len(str(unixtime))-3]))
 
 admin =[clMID]
-owners = ["u6791d7ff66880a0566b7591be262e3f5"]
+owners = ["ubddc32c655b412b8bf0eaf5e6a142ea9"]
 #if clMID not in owners:
 #    python = sys.executable
 #    os.execl(python, python, *sys.argv)
@@ -357,7 +357,7 @@ def lineBot(op):
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner ="u6791d7ff66880a0566b7591be262e3f5"
+                        owner ="ubddc32c655b412b8bf0eaf5e6a142ea9"
                         creator = cl.getContact(owner)
                         contact = cl.getContact(clMID)
                         grouplist = cl.getGroupIdsJoined()
